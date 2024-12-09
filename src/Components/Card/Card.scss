@@ -1,0 +1,33 @@
+.card{
+    width: 30%;
+    height: 206px;
+    border-radius: 10px;
+    background-color: #F5FCFF;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 24px 0 12px;
+
+
+    &_number{
+        color: #0596D615;
+        font-size: 62px;
+        font-weight: 700;
+    }
+
+    &_info{
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        &_title{
+            color: #0596D6;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        &_text{
+            font-size: 18px;
+            color: #555555;
+        }
+    }
+}

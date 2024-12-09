@@ -1,0 +1,22 @@
+.step{
+    &_img{
+        position: relative;
+        z-index: 2;
+    }
+    &_circle{
+        position: absolute;
+        z-index: 1;
+    }
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    &_title{
+        font-size: 24px;
+        font-weight: 600;
+        color: #0596D6;
+    }
+    &_info{
+        font-size: 20px;
+        color: #777777;
+    }
+}
